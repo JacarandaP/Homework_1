@@ -11,10 +11,11 @@ public class Cat extends Pet implements FoodCalculator {
 
     public Cat(String petName, int weight) {
         super(petName);
-        this.weight = weight;
+        this.weight = 5;
         typeOfFood = TypeOfFood.CAT;
 
     }
+
     @Override
     public TypeOfFood getTypeOfFood() {
         return typeOfFood;

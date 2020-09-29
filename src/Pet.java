@@ -5,7 +5,7 @@
  */
 
 public abstract class Pet implements FoodCalculator {
-
+    //Encapsulating example (seen in the other classes as well)
     private String petName;
     private int petWeight;
 
