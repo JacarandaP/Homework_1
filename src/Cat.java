@@ -11,7 +11,7 @@ public class Cat extends Pet implements FoodCalculator {
 
     public Cat(String petName, int weight) {
         super(petName);
-        this.weight = 5;
+        this.weight = weight;
         typeOfFood = TypeOfFood.CAT;
 
     }

@@ -8,7 +8,7 @@ public class PetHotelDemo {
         private List<Pet> allPets = new ArrayList<>();
 
         public void createPets() {
-            Cat venus = new Cat("Venus", 5);
+            Cat venus = new Cat ("Venus", 5);
             Cat ove = new Cat("Ove", 5);
 
             Dog sixten = new Dog("Sixten", 5);

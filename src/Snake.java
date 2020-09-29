@@ -14,7 +14,7 @@ public class Snake extends Pet implements FoodCalculator {
         this.weight = weight;
         typeOfFood = TypeOfFood.SNAKE;
     }
-
+    @Override
     public TypeOfFood getTypeOfFood() {
         return typeOfFood;
     }

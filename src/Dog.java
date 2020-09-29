@@ -14,14 +14,14 @@ public class Dog extends Pet implements FoodCalculator {
         this.weight = weight;
         typeOfFood = TypeOfFood.DOG;
     }
-
+    @Override
     public TypeOfFood getTypeOfFood() {
         return typeOfFood;
     }
 
     @Override
     public int calculateAmountFood() {
-        amountOfFood = weight * 1000 / 10;
+        amountOfFood = weight * 1000 / 100;
         return amountOfFood;
 
     }
