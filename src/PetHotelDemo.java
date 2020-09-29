@@ -53,10 +53,10 @@ public class PetHotelDemo {
 
             PetHotelDemo petHotelDemo = new PetHotelDemo();
             petHotelDemo.createPets();
-            Pet foundPet = petHotelDemo.getPetFromUser();
+            Pet hostPet = petHotelDemo.getPetFromUser();
             JOptionPane.showMessageDialog(null, "Amount of food for " +
-                    foundPet.getPetName() + " is " + foundPet.calculateAmountFood() + "gr of " +
-                    foundPet.getTypeOfFood().getFood());
+                    hostPet.getPetName() + " is " + hostPet.calculateAmountFood() + "gr of " +
+                    hostPet.getTypeOfFood().getFood()); //Use of polymorphism and enums here.
         }
 
 }

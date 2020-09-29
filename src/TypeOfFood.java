@@ -4,6 +4,8 @@
  * Project: Homework_1
  */
 
+//Use of enum outside classes.
+
 public enum TypeOfFood {
 
     CAT("cat food"), DOG("dog food"), SNAKE("pallets");
