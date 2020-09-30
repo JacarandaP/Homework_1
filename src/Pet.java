@@ -26,6 +26,7 @@ public abstract class Pet implements FoodCalculator {
         return petName;
     }
 
+    public abstract int calculateAmountFood();
 
     public abstract TypeOfFood getTypeOfFood();
 
