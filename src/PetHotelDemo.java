@@ -9,7 +9,7 @@ public class PetHotelDemo {
 
         public void createPets() {
             Cat venus = new Cat ("Venus", 5);
-            Cat ove = new Cat("Ove", 5);
+            Cat ove = new Cat("Ove", 3);
 
             Dog sixten = new Dog("Sixten", 5);
             Dog dogge = new Dog("Dogge", 10);
